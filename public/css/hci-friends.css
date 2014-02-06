@@ -9,10 +9,34 @@
 	color: #CC00AA;
 }
 
-h1, h2, h3, h4, h5 {
-	color: #8382BF;
-}
-
 .friend {
 	width: 300px;
+}
+
+#appTitle {
+/*	text-decoration: underline;
+*/
+	color: @brand-primary;
+}
+
+#introBox {
+/*	opacity: 0.5;
+*/	color: white;
+}
+
+.canvasBox {
+	background-color: black;
+	width: 100%;
+	height: 200px;
+	max-width: 100%;
+	border: 5px solid #000000;
+	margin-bottom: 5px;
+}
+
+#bannerHead {
+/*	opacity: 0.5;
+*/	max-width: 100%;
+	max-height: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
